@@ -1,0 +1,32 @@
+.contain{
+    display: flex;
+    flex-direction: column;
+    margin: 0 200px;
+}
+
+.inp{
+    width: 250px;
+    height: 25px;
+    border: 1px solid rgb(192, 175, 143);
+    border-radius: 5px;
+    outline-color: rgb(107, 187, 219);
+    margin-right: 20px;
+}
+#butt{
+    width: 250px;
+    height: 28px;
+    border: 1px solid rgb(192, 175, 143);
+    background-color: rgb(41, 172, 41);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+#placeholder{
+    width: 807px;
+    height: 25px;
+    border: 1px solid rgb(192, 175, 143);
+    border-radius: 5px;
+    outline-color: rgb(107, 187, 219);
+}

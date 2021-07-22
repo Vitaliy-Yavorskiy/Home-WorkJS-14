@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./task2.css">
+</head>
+
+<body>
+    <div id="form">
+        <div class="title">
+            Create your account
+        </div>
+
+        <div class="center">
+            <div class="user">
+                <form name="f1" class="f1">
+                    <p>First name</p>
+                    <input type="text" name="firstName" placeholder="type here">
+                    <p>Secound name</p>
+                    <input type="text" name="lastName" placeholder="type here">
+                    <p>Email adress</p>
+                    <input type="text" name="email" placeholder="enter email">
+                </form>
+            </div>
+
+            <form name="f2" class="f2">
+                <input type="radio" id="man" name="man"
+                checked>
+                    <label for="scales">Man</label>
+               <input type="radio" id="woman" name="man"
+               checked>
+                    <label for="scales">Woman</label>
+            </form>
+
+            <p class="pos">Position</p>
+            <form name="f3" class="f3">
+                <select name="" id="direction">
+                    <option value="">Choose...</option>
+                    <option value="" id="">Frontend</option>
+                    <option value="" id="">Backend</option>
+                    <option value="" id="">QC/QA</option>
+                </select>
+            </form>
+
+            <div class="chek">
+                <input type="checkbox" name="" id="checkbox" onclick="radioChaked()">
+                I Agreea all statmen in Terms of Service
+            </div>
+
+            <button id="btn"> Sign Up</button>
+        </div>
+    </div>
+
+    <div id="form2">
+        <div id="photo" style="border-bottom: 40px;" class="form2_top">
+        </div>
+
+        <div class="form2_center">
+            <div id="content">
+            </div>
+            <button id="btn2">Sing Out</button>
+        </div>
+        <div class="form2_footer">
+            <img src="./foto/facebook-png-blanco-icono-facebook-png-blanco-115629139820drh8uuhb5.png" alt="">
+            <img src="" alt="">
+        </div>
+    </div>
+    </div>
+    <script src="task2.js"></script>
+</body>
+
+</html>
